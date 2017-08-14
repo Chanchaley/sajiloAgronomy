@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chanchaley.prototype">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/sajilo"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".arduino" />
+        <activity android:name=".soil_study" />
+        <activity android:name=".irrigation" />
+        <activity android:name=".trees" />
+        <activity android:name=".trees1" />
+        <activity android:name=".Shrubs" />
+        <activity android:name=".herbs" />
+        <activity android:name=".climbers" />
+        <activity android:name=".grass" />
+        <activity android:name=".amala" />
+        <activity android:name=".gallery" />
+        <activity android:name=".explain_trees" />
+        <activity android:name=".Soil1" />
+        <activity android:name=".explain_soil" />
+    </application>
+
+</manifest>

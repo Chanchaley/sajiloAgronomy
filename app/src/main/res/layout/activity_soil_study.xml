@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soil_study"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/project3"
+    android:layout_height="match_parent"
+    tools:context="com.example.chanchaley.prototype.soil_study">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/feedback"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/aktuality"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/gall"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:src="@drawable/mail"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+       android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:src="@drawable/soill"
+            />
+
+        <TextView
+            android:id="@+id/soil_texture"
+            android:background="@drawable/menubox"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Soil Taxonomy
+(माटो विश्लेषण)"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:height="60dp"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:src="@drawable/soill"
+            />
+
+        <TextView
+            android:id="@+id/soil_nepal"
+            android:background="@drawable/menubox"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:text="Simple Soil Types
+   (नेपाली माटो) "
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:height="60dp"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:src="@drawable/tree"
+            />
+
+        <TextView
+            android:id="@+id/plants"
+            android:background="@drawable/menubox"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plants (बिरुवा )"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:height="60dp"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ringg"
+        />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soil1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chanchaley.prototype.Soil1">
+
+    <SearchView
+        android:id="@+id/search2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:queryHint="Search..">
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listview3"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:divider="@drawable/menubox"
+        >
+
+    </ListView>
+
+</RelativeLayout>

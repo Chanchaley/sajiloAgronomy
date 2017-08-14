@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:background="@drawable/project2"
+    android:padding="10dp">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="@dimen/fab_margin"
+       android:src="@drawable/ringg"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/device_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/bluetoothh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menubox"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="CONNECT"/>
+
+        <Button
+            android:id="@+id/bluetooth_status"
+            android:layout_width="match_parent"
+            android:background="@drawable/menubox"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="DISCONNECT"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+
+            <ImageView
+                android:id="@+id/blu"
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/bt"/>
+
+            <ImageView
+                android:id="@+id/androidd"
+                android:layout_marginTop="30dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/arrduino"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
